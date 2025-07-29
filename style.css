@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(125, 25, 25, 1) 100%);
+}
+.app{
+  padding: 3rem 1rem;
+  background-color: rgb(224,224,224);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.option{
+  border: 1px solid #000;
+  height: 1.2rem;
+  width: 250px;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  transition: .5s ease;
+}
+.option:hover{
+  filter: brightness(.8);
+  cursor: pointer;
+}
+
+p{
+  font-weight: 400;
+}
+
+.result{
+  font-weight: 700;
+}
+
+ul{
+  list-style: none;
+}
